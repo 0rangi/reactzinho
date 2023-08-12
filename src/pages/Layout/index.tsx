@@ -1,4 +1,4 @@
-
+import React from 'react';
 import { Outlet } from "react-router-dom"
 import { ComponentHeader, ComponentFooter } from "../../components"
 import * as S from "./styles"

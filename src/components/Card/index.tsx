@@ -1,7 +1,7 @@
 import * as S from "./styles";
 
 
-export const Menu = () => {
+export const Card = () => {
 return (
     <><S.Aside>
         <h2>

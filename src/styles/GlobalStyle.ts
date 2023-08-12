@@ -1,6 +1,5 @@
 
-/*import styled, { createGlobalStyle } from "styled-components"*/
-
+import styled, { createGlobalStyle } from "styled-components"
 export const GlobalStyle = createGlobalStyle `
 
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Poppins:ital,wght@0,400;1,500&display=swap');
@@ -16,9 +15,9 @@ export const GlobalStyle = createGlobalStyle `
 }
 `
 export const colors = {
-  primary: "#B0D0DC";
-  secondary: "#F2C197";
-  secondaryLight: "#f2c19799";
-  third: "#FAF4F4";
-black: "#010B13";
+  primary: "#B0D0DC",
+  secondary: "#F2C197",
+  secondaryLight: "#f2c19799",
+  third: "#FAF4F4",
+black: "#010B13",
 }
