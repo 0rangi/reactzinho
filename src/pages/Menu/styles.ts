@@ -4,9 +4,12 @@ import { colors } from "../../styles/GlobalStyle"
 export const Section = styled.section`
 
 display: grid;
-gap: 4rem;
 grid-template-columns: 35rem 25rem;
+margin: 9rem;
+gap: 4rem;
+justify-content: center;
 
+ aside {
 background-color:  ${colors.secondaryLight};
   border-radius: 1rem;
   padding: 1rem;
@@ -14,4 +17,6 @@ background-color:  ${colors.secondaryLight};
   text-align: center;
   font-size: large;
   color:  ${colors.third};
+}
+  
 `

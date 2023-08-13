@@ -6,9 +6,11 @@ export function Menu() {
     return (
 
     <S.Section>
+      <>
   <aside>
     <h2>Novidades da semana!</h2>
   </aside>
+
   <aside>
     <h2>Visite nossa loja!</h2>
     <p>
@@ -25,6 +27,7 @@ export function Menu() {
       realizar o pedido
     </p>
   </aside>
+  </>
   </S.Section>
   )
 }

@@ -1,8 +1,10 @@
 
 import styled, { createGlobalStyle } from "styled-components"
 export const GlobalStyle = createGlobalStyle `
-
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Poppins:ital,wght@0,400;1,500&display=swap');
+
+
+
 
 
 * {
@@ -21,3 +23,4 @@ export const colors = {
   third: "#FAF4F4",
 black: "#010B13",
 }
+
