@@ -12,4 +12,10 @@ export const Footer = styled.footer`
   bottom: 0;
   position: fixed;
 
+  justify-content: center;
+img {
+max-height:100%;
+margin-left: 46.5vw
+}
+
 `

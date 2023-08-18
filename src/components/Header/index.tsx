@@ -9,7 +9,11 @@ export function Header() {
      
 
       <picture>
-      <img className="logo" src={Logo} alt="Logo" />  
+    
+      <a href="/"  rel="noreferrer">
+        <img className="logo" src={Logo} alt="Logo"></img>
+      </a>
+
       </picture>
       <S.NavBar>
       
@@ -18,13 +22,15 @@ export function Header() {
 
 
   <>
-  <input id="menu-toggle" type="checkbox" />
-  <label htmlFor="menu-toggle">
-    <div className="menu-hamburger">
-      <span className="hamburger" />
-    </div>
-  </label>
+
+
+
   <ul className="ul">
+
+  <li>
+      <a className="inicial " href="/"> Página inicial
+      </a>
+    </li>
     <li>
       <a className="novidades" href="/menu"> Novidades! </a>
     </li>
@@ -35,6 +41,8 @@ export function Header() {
       <a className="entrar " href=""> Entrar
       </a>
     </li>
+
+    
   </ul>
 </>
 
