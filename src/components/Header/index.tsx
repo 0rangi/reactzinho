@@ -35,10 +35,10 @@ export function Header() {
       <a className="novidades" href="/menu"> Novidades! </a>
     </li>
     <li>
-      <a href=""> Cadastrar-se</a>
+      <a className= "cadastrar " href="/cadastrar"> Cadastrar-se</a>
     </li>
     <li>
-      <a className="entrar " href=""> Entrar
+      <a className="entrar " href="/login"> Entrar
       </a>
     </li>
 
