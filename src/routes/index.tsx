@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom"
 import { PageHome, PageLayout, PageAdm ,PageLogin,PageCadastrar,PageMenu } from "../pages"
 import ProtectedRoute from './ProtectedRoute';
 
-export function RouteSoftware() {
+export const RouteSoftware = () => {
   return (
     <Routes>
       <Route path="/" element={<PageLayout />}>
